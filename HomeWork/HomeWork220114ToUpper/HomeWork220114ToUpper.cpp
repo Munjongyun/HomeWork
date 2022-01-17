@@ -11,10 +11,6 @@ void ToUpper(const char* _Left, char* _Right)
         {
             _Right[Index] = _Left[Index] - 32; // 대문자(65 ~ 90)으로 만들어줌
         }
-        else if (_Left[Index] >= 'A' && _Left[Index] <= 'Z') // 만약 문자가 대문자(65 ~ 90)이면
-        {
-            _Right[Index] = _Left[Index] + 32; // 소문자(97 ~ 122)로 만들어줌
-        }
         else 
         {
             _Right[Index] = _Left[Index]; // 그 외의 것들은 그대로 넣어줌
