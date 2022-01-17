@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿#include <iostream> //미완성
 
 
 void TextChange(char* _Text, const char* _Prev, const char* _Next)
@@ -6,15 +6,17 @@ void TextChange(char* _Text, const char* _Prev, const char* _Next)
 	int Index = 0;
 	int Index2 = 0;
 
-	while (_Prev[Index] != 0) // Sorce 배열을 돌며 몇 자리 까지 있는지 확인
+	while (_Prev[Index] != 0) // Prev 배열을 돌며 몇 자리 까지 있는지 확인
 	{
 		Index += 1;
 	}
 
-	while (_Next[Index] != 0) // Sorce 배열을 돌며 몇 자리 까지 있는지 확인
+	while (_Next[Index2] != 0) // Next 배열을 돌며 몇 자리 까지 있는지 확인
 	{
-		Index += 1;
+		Index2 += 1;
 	}
+
+
 }
 
 
