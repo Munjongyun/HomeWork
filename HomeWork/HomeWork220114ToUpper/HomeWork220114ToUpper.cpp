@@ -4,7 +4,7 @@ void ToUpper(const char* _Left, char* _Right)
 {
     int Index = 0;
 
-    while (_Left[Index] != 0) // _Right배열에 _Left배열의 값들을 차례대로 넣어준다
+    while (_Left[Index] != 0) // Left 배열을 순차적으로 확인한다
     {
 
         if (_Left[Index] >= 'a' && _Left[Index] <= 'z') // 만약 문자가 소문자(97 ~ 122)이면 
