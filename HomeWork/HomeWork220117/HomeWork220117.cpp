@@ -1,8 +1,7 @@
-﻿#include <iostream> // 미완성 CountFirst만 작성됨
+﻿#include <iostream>
 
 int CountFirst(const char* _Text, int _Start, const char* _FindStr)
 {
-
     int FindIndex = 0;
     int TextIndex = 0;
     int Result = 0;
@@ -36,7 +35,9 @@ int CountFirst(const char* _Text, int _Start, const char* _FindStr)
 
 int CountLast(const char* _Text, int _End, const char* _FindStr)
 {
-   
+  
+
+    return -1;
 }
 
 
