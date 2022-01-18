@@ -26,7 +26,7 @@ int CountFirst(const char* _Text, int _Start, const char* _FindStr)
 			}
 		}
 
-        if (Result != 0)
+        if (Result != -1)
         {
             break;
         }
@@ -48,7 +48,7 @@ int main()
 {
     // 실패
     {
-        int Count = CountFirst("aaa  ttt asdfasd", 15, "eee");
+        int Count = CountFirst("aaa ee ttt asdfasd", 15, "eee");
 
         int a = 0;
     }
