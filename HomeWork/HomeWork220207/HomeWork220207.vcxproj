@@ -141,6 +141,14 @@
   <ItemGroup>
     <ClCompile Include="HomeWork220207.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\munjy\OneDrive\Desktop\Memory01.png" />
+    <Image Include="C:\Users\munjy\OneDrive\Desktop\Memory02.png" />
+    <Image Include="C:\Users\munjy\OneDrive\Desktop\Memory03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\munjy\OneDrive\Desktop\블로그 제작 ppt\HomeWork220207 메모리그리기.pptx" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
