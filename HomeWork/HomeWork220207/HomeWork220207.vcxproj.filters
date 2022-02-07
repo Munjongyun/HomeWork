@@ -19,20 +19,4 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="C:\Users\munjy\OneDrive\Desktop\Memory03.png">
-      <Filter>소스 파일</Filter>
-    </Image>
-    <Image Include="C:\Users\munjy\OneDrive\Desktop\Memory01.png">
-      <Filter>소스 파일</Filter>
-    </Image>
-    <Image Include="C:\Users\munjy\OneDrive\Desktop\Memory02.png">
-      <Filter>소스 파일</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="C:\Users\munjy\OneDrive\Desktop\블로그 제작 ppt\HomeWork220207 메모리그리기.pptx">
-      <Filter>소스 파일</Filter>
-    </None>
-  </ItemGroup>
 </Project>
