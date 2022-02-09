@@ -88,7 +88,7 @@ void TextScreen::SetPixel(ConsoleVector _Pos, const char* _DefaultValue)
 void TextScreen::SetPixel(int _X, int _Y, const char* _DefaultValue) 
 {
 	// 해당 객체의 위치가 음수거나 모니터의 범위 벗어나면 오류
-	if (_X < Size_.x_ && _Y < Size_.y_ && _X > 0 && _Y >0)
+	if (_X < Size_.x_ && _Y < Size_.y_ && _X >= 0 && _Y >= 0)
 	{
 		// 기본자료형을 사용한 함수에 진짜 내용을 놓고
 		for (int i = 0; i < 2; i++)
