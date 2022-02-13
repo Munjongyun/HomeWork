@@ -19,7 +19,7 @@ int main()
     // ㅁㅁㅁ
 
     bool IsEnd = true;
-    while (IsEnd)
+    while (1)
     {
         MainScreen.SettingScreen();
         MainPlayer.Render();
@@ -28,5 +28,10 @@ int main()
         MainPlayer.Update(IsEnd);
         // NewMonster.Update();
 
+        if (IsEnd == false) {
+            break;
+        }
     }
+
+    delete[] AllMonsters;
 }
