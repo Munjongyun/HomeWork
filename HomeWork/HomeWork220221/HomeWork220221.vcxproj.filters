@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="Engine\ConsoleRandom.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ConsoleScreen.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ConsoleObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ConsoleMath.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBlock.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalGameLogic.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\ConsoleRandom.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ConsoleScreen.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ConsoleObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ConsoleMath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBlock.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalGameLogic.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{9003d9ff-a4e6-4df4-a085-e544a24f2810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{dd64474a-d8b6-432d-862a-f0ead05b9b3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
