@@ -41,10 +41,6 @@ int main()
 
 		if (true == NewHead->GetIsDeath())
 		{
-			delete NewHead; 
-			delete NewBody;
-			NewHead = nullptr;
-			NewBody = nullptr;
 
 			break;
 		}
@@ -52,9 +48,25 @@ int main()
 		if (NewHead->OverLapCheck(NewBody))
 		{
 			NewHead->OverLap(NewBody);
-			delete NewBody;
-			NewBody = nullptr;
+			
+			if (NewBody != nullptr)
+			{
+				delete NewBody;
+				NewBody = nullptr;
+			}
 		}
+	}
+
+	if (NewHead != nullptr)
+	{
+		delete NewHead;
+		NewHead = nullptr;
+	}
+
+	if (NewBody != nullptr)
+	{
+		delete NewBody;
+		NewBody = nullptr;
 	}
 
 	ConsoleScreen::Destroy();
