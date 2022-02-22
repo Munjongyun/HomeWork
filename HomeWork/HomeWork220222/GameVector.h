@@ -227,8 +227,29 @@ public:
         // Push_back이 되었다면
 
         ArrData_[Size_] = _Data;
+
+        
         ++Size_;
+
+        BubbleSort();
+
     }
+
+    void BubbleSort() {
+
+        for (int i = 0; i < Size_ ; i++) {
+            for (int j = 0; j < Size_ - 1; j++) {
+                if (ArrData_[j] > ArrData_[j + 1])
+                {
+                    DataType TempData_;
+                    TempData_ = ArrData_[j + 1];
+                    ArrData_[j + 1] = ArrData_[j];
+                    ArrData_[j] = TempData_;
+                }
+            }
+        }
+
+    };
 
     DataType& operator[](const size_t _Index)
     {

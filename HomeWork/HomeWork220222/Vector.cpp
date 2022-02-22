@@ -71,33 +71,37 @@ int main()
         MyVector.push_back(8);
         MyVector.push_back(99);
 
-    }
-
-    {
-        std::vector<int> Arr;
-        Arr.resize(20);
-
-        // Arr.reserve(20);
-
-        GameVector<int> MyVector;
-        MyVector.resize(20);
-        MyVector.reserve(20);
-
-
-        // unsigned __int64
-        for (size_t i = 0; i < 40; i++)
-        {
-            MyVector.push_back((int)i);
-            std::cout << "Capa" << MyVector.capacity() << std::endl;
-            std::cout << "Size" << MyVector.size() << std::endl;
-            std::cout << "-----------------------------------" << std::endl;
-        }
-
-
-        for (size_t i = 0; i < 40; i++)
+        for (size_t i = 0; i < MyVector.size(); i++)
         {
             std::cout << MyVector[i] << std::endl;
         }
+    }
+
+    {
+        //std::vector<int> Arr;
+        //Arr.resize(20);
+
+        //// Arr.reserve(20);
+
+        //GameVector<int> MyVector;
+        //MyVector.resize(20);
+        //MyVector.reserve(20);
+
+
+        //// unsigned __int64
+        //for (size_t i = 0; i < 40; i++)
+        //{
+        //    MyVector.push_back((int)i);
+        //    std::cout << "Capa" << MyVector.capacity() << std::endl;
+        //    std::cout << "Size" << MyVector.size() << std::endl;
+        //    std::cout << "-----------------------------------" << std::endl;
+        //}
+
+
+        //for (size_t i = 0; i < 40; i++)
+        //{
+        //    std::cout << MyVector[i] << std::endl;
+        //}
     }
     
 }
