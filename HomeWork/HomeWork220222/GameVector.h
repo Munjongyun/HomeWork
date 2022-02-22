@@ -238,7 +238,7 @@ public:
     void BubbleSort() {
 
         for (int i = 0; i < Size_ ; i++) {
-            for (int j = 0; j < Size_ - 1; j++) {
+            for (int j = 0; j < Size_ - 1 - i; j++) {
                 if (ArrData_[j] > ArrData_[j + 1])
                 {
                     DataType TempData = ArrData_[j + 1];
