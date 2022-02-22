@@ -241,9 +241,9 @@ public:
             for (int j = 0; j < Size_ - 1; j++) {
                 if (ArrData_[j] > ArrData_[j + 1])
                 {
-                    DataType TempData_ = ArrData_[j + 1];
+                    DataType TempData = ArrData_[j + 1];
                     ArrData_[j + 1] = ArrData_[j];
-                    ArrData_[j] = TempData_;
+                    ArrData_[j] = TempData;
                 }
             }
         }
