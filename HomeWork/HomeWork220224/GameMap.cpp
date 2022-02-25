@@ -100,18 +100,14 @@ private:
             {
                 LeftChild_->Release();
 
-                delete LeftChild_;
-                LeftChild_ = nullptr;
             }
             if (nullptr != RightChild_)
             {
                 RightChild_->Release();
 
-                delete RightChild_;
-                RightChild_ = nullptr;
             }
             
-            
+            delete this;
         }
 
         // 내보다 큰 부모를 찾는 함수
@@ -331,6 +327,7 @@ public:
 
     void Release() {
         RootNode_->Release();
+        RootNode_ = nullptr;
     }
 
 public:
